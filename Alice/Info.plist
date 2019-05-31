@@ -78,6 +78,8 @@
 	<string>Sending QR Code to your contacts</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>NoeDisplay-Regular.otf</string>
+		<string>NoeDisplay-Bold.otf</string>
 		<string>SourceSansPro-Black.otf</string>
 		<string>SourceSansPro-BlackIt.otf</string>
 		<string>SourceSansPro-Bold.otf</string>

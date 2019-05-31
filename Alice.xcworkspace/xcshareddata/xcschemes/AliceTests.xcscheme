@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2912CCF41F6A830700C6CBE3"
-               BuildableName = "AlphaWallet.app"
-               BlueprintName = "AlphaWallet"
-               ReferencedContainer = "container:AlphaWallet.xcodeproj">
+               BuildableName = "Alice.app"
+               BlueprintName = "Alice"
+               ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2912CD0A1F6A830700C6CBE3"
-               BuildableName = "AlphaWalletTests.xctest"
-               BlueprintName = "AlphaWalletTests"
-               ReferencedContainer = "container:AlphaWallet.xcodeproj">
+               BuildableName = "AliceTests.xctest"
+               BlueprintName = "AliceTests"
+               ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2912CCF41F6A830700C6CBE3"
-            BuildableName = "AlphaWallet.app"
-            BlueprintName = "AlphaWallet"
-            ReferencedContainer = "container:AlphaWallet.xcodeproj">
+            BuildableName = "Alice.app"
+            BlueprintName = "Alice"
+            ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2912CCF41F6A830700C6CBE3"
-            BuildableName = "AlphaWallet.app"
-            BlueprintName = "AlphaWallet"
-            ReferencedContainer = "container:AlphaWallet.xcodeproj">
+            BuildableName = "Alice.app"
+            BlueprintName = "Alice"
+            ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -100,9 +100,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2912CCF41F6A830700C6CBE3"
-            BuildableName = "AlphaWallet.app"
-            BlueprintName = "AlphaWallet"
-            ReferencedContainer = "container:AlphaWallet.xcodeproj">
+            BuildableName = "Alice.app"
+            BlueprintName = "Alice"
+            ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

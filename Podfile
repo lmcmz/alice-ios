@@ -2,7 +2,7 @@ platform :ios, '10.0'
 inhibit_all_warnings!
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'AlphaWallet' do
+target 'Alice' do
   use_frameworks!
   pod 'BigInt', '~> 3.0'
   pod 'R.swift'

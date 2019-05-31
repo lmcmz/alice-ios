@@ -14,6 +14,7 @@
 		150AC6F5229E42E0009EE08F /* SwiftReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */; };
 		150AC6F7229E4318009EE08F /* NativeModuleCallSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */; };
 		150AC6FA229F6E81009EE08F /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F9229F6E81009EE08F /* TransactionManager.swift */; };
+		150AC6FC22A0C899009EE08F /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6FB22A0C898009EE08F /* ButtonsBar.swift */; };
 		15A87EB4229E3FD200E569DA /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A87EB3229E3FD200E569DA /* HUDManager.swift */; };
 		290B2B541F8F50030053C83E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290B2B561F8F50030053C83E /* Localizable.strings */; };
 		290B2B5F1F9177860053C83E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B5E1F9177860053C83E /* UIImage.swift */; };
@@ -422,7 +423,6 @@
 		5E7C7BFE9C8CAA3E204B1FAA /* TokenRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C7F89E3480D3680750EA9 /* TokenRowView.swift */; };
 		5E7C7C0D3181CD31A581AEBE /* EditMyDappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C7F55495A6095B3E86248 /* EditMyDappViewController.swift */; };
 		5E7C7C0FAC500A6651E663FD /* TransferTokensCardQuantitySelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C703BA1D0E9ACB7399155 /* TransferTokensCardQuantitySelectionViewModel.swift */; };
-		5E7C7C0FBEF6206024FB355E /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C774238AE6861A7935EEE /* ButtonsBar.swift */; };
 		5E7C7C21E5CAF122AA4F6617 /* HowDoIGetMyMoneyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C78B001F9F95F404D5FEF /* HowDoIGetMyMoneyInfoViewController.swift */; };
 		5E7C7C7142C4519873B2BB4E /* ImportWalletTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C7C2872E213BBB05D55BA /* ImportWalletTabBarViewModel.swift */; };
 		5E7C7C8BC4763CFDD3EE119D /* AssetAttributeFunctionCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C75C1D4D61A74BACAFF69 /* AssetAttributeFunctionCall.swift */; };
@@ -630,6 +630,7 @@
 		150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReactNativeBridge.m; sourceTree = "<group>"; };
 		150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeModuleCallSwift.swift; sourceTree = "<group>"; };
 		150AC6F9229F6E81009EE08F /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
+		150AC6FB22A0C898009EE08F /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsBar.swift; path = "../../../../../Downloads/alpha-wallet-ios-master/AlphaWallet/UI/ButtonsBar.swift"; sourceTree = "<group>"; };
 		15A87EB3229E3FD200E569DA /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
 		290B2B551F8F50030053C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		290B2B5E1F9177860053C83E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
@@ -637,13 +638,13 @@
 		290B2B691F92C0440053C83E /* ConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
 		290B2B6B1F92C35B0053C83E /* RPCServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPCServerTests.swift; sourceTree = "<group>"; };
 		290B2B6D1F92C3980053C83E /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
-		2912CCF51F6A830700C6CBE3 /* AlphaWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2912CCF51F6A830700C6CBE3 /* Alice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2912CCF81F6A830700C6CBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2912CD011F6A830700C6CBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2912CD061F6A830700C6CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2912CD0B1F6A830700C6CBE3 /* AlphaWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2912CD0B1F6A830700C6CBE3 /* AliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2912CD111F6A830700C6CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2912CD161F6A830700C6CBE3 /* AlphaWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2912CD161F6A830700C6CBE3 /* AliceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2912CD1A1F6A830700C6CBE3 /* TrustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustUITests.swift; sourceTree = "<group>"; };
 		2912CD1C1F6A830700C6CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		2912CD2A1F6A833E00C6CBE3 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
@@ -972,7 +973,6 @@
 		5E7C7721E0E4D4EFDD35E196 /* ScanQRCodeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRCodeCoordinator.swift; sourceTree = "<group>"; };
 		5E7C772DC28C5110021894E3 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		5E7C77316522DF2B256F1F92 /* TokensCardViewControllerHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensCardViewControllerHeaderViewModel.swift; sourceTree = "<group>"; };
-		5E7C774238AE6861A7935EEE /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsBar.swift; path = AlphaWallet/UI/ButtonsBar.swift; sourceTree = SOURCE_ROOT; };
 		5E7C774BCA281E4B077DBBFA /* WhatIsEthereumInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsEthereumInfoViewController.swift; sourceTree = "<group>"; };
 		5E7C775FD95FE80B0F1CEA33 /* TokenAdaptorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenAdaptorTest.swift; sourceTree = "<group>"; };
 		5E7C776B129861728FFB8CC8 /* EditMyDappViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMyDappViewControllerViewModel.swift; sourceTree = "<group>"; };
@@ -1285,6 +1285,37 @@
 			path = Transaction;
 			sourceTree = "<group>";
 		};
+		150AC6FD22A0CB4C009EE08F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				150AC70022A0CB81009EE08F /* Fonts */,
+				150AC6FF22A0CB7A009EE08F /* Sound */,
+				150AC6FE22A0CB6E009EE08F /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		150AC6FE22A0CB6E009EE08F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		150AC6FF22A0CB7A009EE08F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		150AC70022A0CB81009EE08F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		15A87EB2229E3F9F00E569DA /* HUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1324,9 +1355,9 @@
 		2912CCEC1F6A830700C6CBE3 = {
 			isa = PBXGroup;
 			children = (
-				2912CCF71F6A830700C6CBE3 /* AlphaWallet */,
-				2912CD0E1F6A830700C6CBE3 /* AlphaWalletTests */,
-				2912CD191F6A830700C6CBE3 /* AlphaWalletUITests */,
+				2912CCF71F6A830700C6CBE3 /* Alice */,
+				2912CD0E1F6A830700C6CBE3 /* AliceTests */,
+				2912CD191F6A830700C6CBE3 /* AliceUITests */,
 				2912CCF61F6A830700C6CBE3 /* Products */,
 				AD022B369F3ED81B3B044FBB /* Pods */,
 				63085EAEC378BDEB6147F15D /* Frameworks */,
@@ -1336,16 +1367,17 @@
 		2912CCF61F6A830700C6CBE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2912CCF51F6A830700C6CBE3 /* AlphaWallet.app */,
-				2912CD0B1F6A830700C6CBE3 /* AlphaWalletTests.xctest */,
-				2912CD161F6A830700C6CBE3 /* AlphaWalletUITests.xctest */,
+				2912CCF51F6A830700C6CBE3 /* Alice.app */,
+				2912CD0B1F6A830700C6CBE3 /* AliceTests.xctest */,
+				2912CD161F6A830700C6CBE3 /* AliceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2912CCF71F6A830700C6CBE3 /* AlphaWallet */ = {
+		2912CCF71F6A830700C6CBE3 /* Alice */ = {
 			isa = PBXGroup;
 			children = (
+				150AC6FD22A0CB4C009EE08F /* Resource */,
 				150AC6F8229F6E73009EE08F /* Transaction */,
 				150AC6F1229E428C009EE08F /* NativeModules */,
 				15A87EB2229E3F9F00E569DA /* HUD */,
@@ -1390,10 +1422,10 @@
 				5E7C7CE9D3BEED5AA1FC1599 /* RPC */,
 				5E7C7FC75FF544B1DF0B0D8B /* PushNotificationsCoordinator.swift */,
 			);
-			path = AlphaWallet;
+			path = Alice;
 			sourceTree = "<group>";
 		};
-		2912CD0E1F6A830700C6CBE3 /* AlphaWalletTests */ = {
+		2912CD0E1F6A830700C6CBE3 /* AliceTests */ = {
 			isa = PBXGroup;
 			children = (
 				5E7C7211BBC35E6ABC59CD5E /* Browser */,
@@ -1417,10 +1449,10 @@
 				5E7C7154AC0FD950F01278EA /* Models */,
 				5E7C76A2DAB62A6824F37749 /* Sell */,
 			);
-			path = AlphaWalletTests;
+			path = AliceTests;
 			sourceTree = "<group>";
 		};
-		2912CD191F6A830700C6CBE3 /* AlphaWalletUITests */ = {
+		2912CD191F6A830700C6CBE3 /* AliceUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2912CD1A1F6A830700C6CBE3 /* TrustUITests.swift */,
@@ -1428,7 +1460,7 @@
 				2912CD1C1F6A830700C6CBE3 /* Info.plist */,
 				29358D9E1F78D5B700925D61 /* Screenshots.swift */,
 			);
-			path = AlphaWalletUITests;
+			path = AliceUITests;
 			sourceTree = "<group>";
 		};
 		2912CD281F6A831700C6CBE3 /* Wallet */ = {
@@ -1482,6 +1514,7 @@
 			children = (
 				29FF12F91F74CC6C00AFD326 /* Form */,
 				291EC9DE1F7053C50004EDD0 /* NavigationController.swift */,
+				150AC6FB22A0C898009EE08F /* ButtonsBar.swift */,
 				293B8B421F70815900356286 /* BalanceTitleView.swift */,
 				296421941F70C1EC00EB363B /* LoadingView.swift */,
 				296421961F70C1F200EB363B /* ErrorView.swift */,
@@ -1836,7 +1869,6 @@
 				5E7C7CC48CA7A1EA7D539C87 /* VerifiableStatusViewController.swift */,
 				5E7C77B790551456E111ED4F /* PeekOpenSeaNonFungibleTokenViewController.swift */,
 				5E7C7EC53B2B5DFAAC7965EC /* TokenViewController.swift */,
-				5E7C774238AE6861A7935EEE /* ButtonsBar.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -3184,9 +3216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2912CCF41F6A830700C6CBE3 /* AlphaWallet */ = {
+		2912CCF41F6A830700C6CBE3 /* Alice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2912CD1F1F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWallet" */;
+			buildConfigurationList = 2912CD1F1F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "Alice" */;
 			buildPhases = (
 				7C3903F7FBE1023CAA5AED0C /* [CP] Check Pods Manifest.lock */,
 				29336FE81F6B24FF005E3BFC /* R.Swift */,
@@ -3200,14 +3232,14 @@
 			);
 			dependencies = (
 			);
-			name = AlphaWallet;
+			name = Alice;
 			productName = etherwallet;
-			productReference = 2912CCF51F6A830700C6CBE3 /* AlphaWallet.app */;
+			productReference = 2912CCF51F6A830700C6CBE3 /* Alice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2912CD0A1F6A830700C6CBE3 /* AlphaWalletTests */ = {
+		2912CD0A1F6A830700C6CBE3 /* AliceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2912CD221F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWalletTests" */;
+			buildConfigurationList = 2912CD221F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AliceTests" */;
 			buildPhases = (
 				DD4A67DA7DF07547512929B9 /* [CP] Check Pods Manifest.lock */,
 				C8FC0401219E9CC000445E21 /* R.swift */,
@@ -3221,14 +3253,14 @@
 			dependencies = (
 				2912CD0D1F6A830700C6CBE3 /* PBXTargetDependency */,
 			);
-			name = AlphaWalletTests;
+			name = AliceTests;
 			productName = etherwalletTests;
-			productReference = 2912CD0B1F6A830700C6CBE3 /* AlphaWalletTests.xctest */;
+			productReference = 2912CD0B1F6A830700C6CBE3 /* AliceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2912CD151F6A830700C6CBE3 /* AlphaWalletUITests */ = {
+		2912CD151F6A830700C6CBE3 /* AliceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2912CD251F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWalletUITests" */;
+			buildConfigurationList = 2912CD251F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AliceUITests" */;
 			buildPhases = (
 				945926675C0C7271EDB3828C /* [CP] Check Pods Manifest.lock */,
 				2912CD121F6A830700C6CBE3 /* Sources */,
@@ -3240,9 +3272,9 @@
 			dependencies = (
 				2912CD181F6A830700C6CBE3 /* PBXTargetDependency */,
 			);
-			name = AlphaWalletUITests;
+			name = AliceUITests;
 			productName = etherwalletUITests;
-			productReference = 2912CD161F6A830700C6CBE3 /* AlphaWalletUITests.xctest */;
+			productReference = 2912CD161F6A830700C6CBE3 /* AliceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -3285,7 +3317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2912CCF01F6A830700C6CBE3 /* Build configuration list for PBXProject "AlphaWallet" */;
+			buildConfigurationList = 2912CCF01F6A830700C6CBE3 /* Build configuration list for PBXProject "Alice" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3308,9 +3340,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2912CCF41F6A830700C6CBE3 /* AlphaWallet */,
-				2912CD0A1F6A830700C6CBE3 /* AlphaWalletTests */,
-				2912CD151F6A830700C6CBE3 /* AlphaWalletUITests */,
+				2912CCF41F6A830700C6CBE3 /* Alice */,
+				2912CD0A1F6A830700C6CBE3 /* AliceTests */,
+				2912CD151F6A830700C6CBE3 /* AliceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -3865,6 +3897,7 @@
 				5E7C75D46140FACBD12333BF /* EthTokenViewCell.swift in Sources */,
 				5E7C728CDF33FBDBA47F71A6 /* MarketplaceViewController.swift in Sources */,
 				5E7C71A7D2BD6FCE3980CC51 /* ImportWalletHelpBubbleViewViewModel.swift in Sources */,
+				150AC6FC22A0C899009EE08F /* ButtonsBar.swift in Sources */,
 				5E7C7E04D4DDD7D8881A2AB1 /* UniversalLinkCoordinator.swift in Sources */,
 				5E7C71A6B0BDF301747A49AE /* ScreenChecker.swift in Sources */,
 				5E7C72AF95DCE8BC65490BCA /* StatusViewController.swift in Sources */,
@@ -4064,7 +4097,6 @@
 				5E7C7A6E4C1AEFED0B0630A6 /* TokenViewControllerTransactionCellViewModel.swift in Sources */,
 				5E7C749615D227B91E40B274 /* TokenViewControllerHeaderView.swift in Sources */,
 				5E7C72EECA8154CEB7D9F46C /* ContainerViewWithShadow.swift in Sources */,
-				5E7C7C0FBEF6206024FB355E /* ButtonsBar.swift in Sources */,
 				5E7C7A9628548EB8AB8B7A26 /* TokenCollection.swift in Sources */,
 				5E7C75862ABD367EF101DF9C /* SingleChainTokenCoordinator.swift in Sources */,
 				5E7C70F550D982833859D8B4 /* MigrationInitializer.swift in Sources */,
@@ -4177,12 +4209,12 @@
 /* Begin PBXTargetDependency section */
 		2912CD0D1F6A830700C6CBE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2912CCF41F6A830700C6CBE3 /* AlphaWallet */;
+			target = 2912CCF41F6A830700C6CBE3 /* Alice */;
 			targetProxy = 2912CD0C1F6A830700C6CBE3 /* PBXContainerItemProxy */;
 		};
 		2912CD181F6A830700C6CBE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2912CCF41F6A830700C6CBE3 /* AlphaWallet */;
+			target = 2912CCF41F6A830700C6CBE3 /* Alice */;
 			targetProxy = 2912CD171F6A830700C6CBE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -4397,14 +4429,14 @@
 				CURRENT_PROJECT_VERSION = 157;
 				DEVELOPMENT_TEAM = 47Q6KQQW55;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = AlphaWallet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alice.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AlphaWallet/NativeModules/AlphaWallet-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/AlphaWallet-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -4426,13 +4458,13 @@
 				CURRENT_PROJECT_VERSION = 157;
 				DEVELOPMENT_TEAM = 47Q6KQQW55;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = AlphaWallet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alice.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AlphaWallet/NativeModules/AlphaWallet-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/AlphaWallet-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4456,7 +4488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaWallet.app/AlphaWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alice.app/Alice";
 			};
 			name = Debug;
 		};
@@ -4475,7 +4507,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaWallet.app/AlphaWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alice.app/Alice";
 			};
 			name = Release;
 		};
@@ -4521,7 +4553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2912CCF01F6A830700C6CBE3 /* Build configuration list for PBXProject "AlphaWallet" */ = {
+		2912CCF01F6A830700C6CBE3 /* Build configuration list for PBXProject "Alice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2912CD1D1F6A830700C6CBE3 /* Debug */,
@@ -4530,7 +4562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2912CD1F1F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWallet" */ = {
+		2912CD1F1F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "Alice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2912CD201F6A830700C6CBE3 /* Debug */,
@@ -4539,7 +4571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2912CD221F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWalletTests" */ = {
+		2912CD221F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AliceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2912CD231F6A830700C6CBE3 /* Debug */,
@@ -4548,7 +4580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2912CD251F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AlphaWalletUITests" */ = {
+		2912CD251F6A830700C6CBE3 /* Build configuration list for PBXNativeTarget "AliceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2912CD261F6A830700C6CBE3 /* Debug */,
