@@ -31,7 +31,7 @@ struct EditMyDappViewControllerViewModel {
     }
 
     var imagePlaceholder: UIImage {
-        return R.image.launch_icon()!
+        return R.image.launchIcon()!
     }
 
     var imageUrl: URL? {

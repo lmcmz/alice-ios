@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'Alice' do
   use_frameworks!
   pod 'BigInt', '~> 3.0'
-  pod 'R.swift'
+  pod 'R.swift', '~> 4.0.0' 
   pod 'JSONRPCKit', '~> 2.0.0'
   pod 'APIKit'
   pod 'Eureka', '~> 4.3'
@@ -50,13 +50,13 @@ target 'Alice' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
 
-  target 'AlphaWalletTests' do
+  target 'AliceTests' do
       inherit! :search_paths
       # Pods for testing
       pod 'iOSSnapshotTestCase'
   end
 
-  target 'AlphaWalletUITests' do
+  target 'AliceUITests' do
     inherit! :search_paths
     # Pods for testing
   end

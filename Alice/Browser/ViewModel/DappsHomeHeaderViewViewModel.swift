@@ -11,7 +11,7 @@ struct DappsHomeHeaderViewViewModel {
     }
 
     var logo: UIImage? {
-        return R.image.launch_icon()
+        return R.image.launchIcon()
     }
 
     var titleFont: UIFont? {

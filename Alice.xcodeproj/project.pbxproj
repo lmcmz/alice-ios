@@ -14,8 +14,9 @@
 		150AC6F5229E42E0009EE08F /* SwiftReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */; };
 		150AC6F7229E4318009EE08F /* NativeModuleCallSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */; };
 		150AC6FA229F6E81009EE08F /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F9229F6E81009EE08F /* TransactionManager.swift */; };
-		150AC6FC22A0C899009EE08F /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6FB22A0C898009EE08F /* ButtonsBar.swift */; };
 		15A87EB4229E3FD200E569DA /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A87EB3229E3FD200E569DA /* HUDManager.swift */; };
+		15B3D4CC22A0F3EF007ED15C /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */; };
+		15B3D4D222A0FB98007ED15C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3D4D122A0FB97007ED15C /* R.generated.swift */; };
 		290B2B541F8F50030053C83E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290B2B561F8F50030053C83E /* Localizable.strings */; };
 		290B2B5F1F9177860053C83E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B5E1F9177860053C83E /* UIImage.swift */; };
 		290B2B611F9179880053C83E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B601F9179880053C83E /* AccountViewModel.swift */; };
@@ -102,7 +103,6 @@
 		2977CAE01F7DEEB0009682A0 /* FakeEtherKeystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977CADF1F7DEEB0009682A0 /* FakeEtherKeystore.swift */; };
 		297800521F71FDCF003185C1 /* FormAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297800511F71FDCF003185C1 /* FormAppearance.swift */; };
 		2981F4731F8303E600CA6590 /* TransactionCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981F4721F8303E600CA6590 /* TransactionCoordinatorTests.swift */; };
-		29850D251F6B27A800791A49 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29850D241F6B27A800791A49 /* R.generated.swift */; };
 		29850D2B1F6B30FF00791A49 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29850D2A1F6B30FF00791A49 /* TransactionViewController.swift */; };
 		298542E81FBAD0B200CB5081 /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298542E71FBAD0B200CB5081 /* OperationType.swift */; };
 		298542F31FBD594D00CB5081 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298542F21FBD594D00CB5081 /* SettingsViewModel.swift */; };
@@ -215,7 +215,6 @@
 		29FF130A1F75F67200AFD326 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF13091F75F67200AFD326 /* Address.swift */; };
 		29FF130D1F7626E800AFD326 /* FakeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF130C1F7626E800AFD326 /* FakeNavigationController.swift */; };
 		29FF6D6B2011D2AF00A3011C /* InCoordinatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF6D6A2011D2AF00A3011C /* InCoordinatorError.swift */; };
-		2A669F5585899E890EF26C57 /* Pods_AlphaWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */; };
 		442FC01053E2F1B59355A961 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FCC7DC5A13C023F7F2C26 /* Arguments.swift */; };
 		442FC0B59B23C0F3068621C0 /* NumberStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FC575B6A4A50B0555E1B0 /* NumberStepper.swift */; };
 		442FC249C2A39F85BDBD7987 /* GetDecimalsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FC0F2E3BB3EE420BC2C16 /* GetDecimalsCoordinator.swift */; };
@@ -237,6 +236,7 @@
 		442FCE0709E29BF233F32CAB /* GetERC875BalanceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FC002CDEA792B8ECD3E13 /* GetERC875BalanceCoordinator.swift */; };
 		442FCE0DAE5527A93F54022C /* RedeemTokenCardQuantitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FCC17EAB857C58732831E /* RedeemTokenCardQuantitySelectionViewController.swift */; };
 		442FCE2BEE8D475C7DEB39C1 /* RedeemTokenCardQuantitySelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FC54DA900FA2F9BB73A63 /* RedeemTokenCardQuantitySelectionViewModel.swift */; };
+		52DF039ADE0AEBF732D378FD /* Pods_Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD19781D2806B831CFD16C8B /* Pods_Alice.framework */; };
 		5E7C700A0B11504AC44718DD /* CanScanQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C74159ED115D14384A1CB /* CanScanQRCode.swift */; };
 		5E7C701BFF4469B35A074EB9 /* RequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C767497AD8DEE83F384D7 /* RequestViewModel.swift */; };
 		5E7C702C4B29AF2B8D61CCA4 /* DappsAutoCompletionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C7D19E3CF96929FB8CEA3 /* DappsAutoCompletionViewControllerViewModel.swift */; };
@@ -576,6 +576,8 @@
 		B138ABD0208C2C93000FC28A /* MonkeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B138ABCF208C2C93000FC28A /* MonkeyTest.swift */; };
 		B1DC375D203AEAE200C9756D /* MarketQueueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC375C203AEAE100C9756D /* MarketQueueHandler.swift */; };
 		B1DC375F203AEB4800C9756D /* MarketQueueHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC375E203AEB4800C9756D /* MarketQueueHandlerTests.swift */; };
+		B427BEAB31147816F5DBE92E /* Pods_AliceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB281C313282530C85B148 /* Pods_AliceTests.framework */; };
+		B7105AD9C9B55EB65359662D /* Pods_AliceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9277855ACA0F9BE7541E451 /* Pods_AliceUITests.framework */; };
 		BB5D6A9E20232EE8000FC5AB /* CurrencyRate+Fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D6A9D20232EE8000FC5AB /* CurrencyRate+Fee.swift */; };
 		BBF4F9B72029D0B3009E04C0 /* GasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4F9B62029D0B2009E04C0 /* GasViewModel.swift */; };
 		C868C5292053BDE00059672B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C868C5282053BDE00059672B /* LaunchScreen.storyboard */; };
@@ -620,18 +622,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000D7602FC48A4B90A982A5A /* Pods-Alice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alice/Pods-Alice.debug.xcconfig"; sourceTree = "<group>"; };
 		0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2AA3DA88A84B52F0021FA9 /* Pods-AliceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliceTests/Pods-AliceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		120A2B8C48180E93DBCCC2EE /* Pods-AlphaWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaWalletUITests/Pods-AlphaWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		150AC6EB229E416B009EE08F /* TransactionAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAlertView.swift; sourceTree = "<group>"; };
 		150AC6ED229E4192009EE08F /* TransactionAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionAlertView.xib; sourceTree = "<group>"; };
 		150AC6EF229E425E009EE08F /* NativeTransactionAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTransactionAlert.swift; sourceTree = "<group>"; };
-		150AC6F2229E42B7009EE08F /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		150AC6F3229E42E0009EE08F /* AlphaWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphaWallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		150AC6F3229E42E0009EE08F /* Alice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alice-Bridging-Header.h"; sourceTree = "<group>"; };
 		150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReactNativeBridge.m; sourceTree = "<group>"; };
 		150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeModuleCallSwift.swift; sourceTree = "<group>"; };
 		150AC6F9229F6E81009EE08F /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
-		150AC6FB22A0C898009EE08F /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsBar.swift; path = "../../../../../Downloads/alpha-wallet-ios-master/AlphaWallet/UI/ButtonsBar.swift"; sourceTree = "<group>"; };
 		15A87EB3229E3FD200E569DA /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
+		15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsBar.swift; path = "../../../../Downloads/alpha-wallet-ios-master/AlphaWallet/UI/ButtonsBar.swift"; sourceTree = "<group>"; };
+		15B3D4D122A0FB97007ED15C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		20675FC01F5A9C0738B3B963 /* Pods-AliceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliceTests/Pods-AliceTests.release.xcconfig"; sourceTree = "<group>"; };
 		290B2B551F8F50030053C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		290B2B5E1F9177860053C83E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		290B2B601F9179880053C83E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
@@ -723,7 +728,6 @@
 		2977CADF1F7DEEB0009682A0 /* FakeEtherKeystore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeEtherKeystore.swift; sourceTree = "<group>"; };
 		297800511F71FDCF003185C1 /* FormAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAppearance.swift; sourceTree = "<group>"; };
 		2981F4721F8303E600CA6590 /* TransactionCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCoordinatorTests.swift; sourceTree = "<group>"; };
-		29850D241F6B27A800791A49 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		29850D2A1F6B30FF00791A49 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		298542E71FBAD0B200CB5081 /* OperationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
 		298542F21FBD594D00CB5081 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -1186,6 +1190,7 @@
 		77B3BF3B201908ED00EEC15A /* ConfirmCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCoordinator.swift; sourceTree = "<group>"; };
 		77E0E772201FAD05009B4B31 /* BrowserURLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserURLParser.swift; sourceTree = "<group>"; };
 		7BEDA1C4253B796085A0E66C /* Pods_AlphaWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaWalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB281C313282530C85B148 /* Pods_AliceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA26C61D20412A1D00318B9B /* TokensCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensCardViewController.swift; sourceTree = "<group>"; };
 		AA26C62120412A4100318B9B /* UIViewInspectableEnhancements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewInspectableEnhancements.swift; sourceTree = "<group>"; };
 		AA26C62220412A4100318B9B /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -1195,7 +1200,9 @@
 		AA893ED4203C3E5400CDCED1 /* TokenBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBalance.swift; sourceTree = "<group>"; };
 		AAEB8DA1204BC7B700CB0B2C /* RedeemTokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemTokenViewController.swift; sourceTree = "<group>"; };
 		AAEF2CAA2050A68A0038BE0D /* SignatureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureHelper.swift; sourceTree = "<group>"; };
+		AF56B66C872D38988B6C4F1A /* Pods-Alice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alice/Pods-Alice.release.xcconfig"; sourceTree = "<group>"; };
 		B138ABCF208C2C93000FC28A /* MonkeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyTest.swift; sourceTree = "<group>"; };
+		B1A5502D4753EE6EF63FC86D /* Pods-AliceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliceUITests/Pods-AliceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1CCA9D1215B615A0000FBF7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B1CCA9D2215B61620000FBF7 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B1DC375C203AEAE100C9756D /* MarketQueueHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketQueueHandler.swift; sourceTree = "<group>"; };
@@ -1203,6 +1210,7 @@
 		B9F84D10470B22C957A61EAE /* Pods-AlphaWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaWalletTests/Pods-AlphaWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB5D6A9D20232EE8000FC5AB /* CurrencyRate+Fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrencyRate+Fee.swift"; sourceTree = "<group>"; };
 		BBF4F9B62029D0B2009E04C0 /* GasViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasViewModel.swift; sourceTree = "<group>"; };
+		C49ED93682AB03FE439B294B /* Pods-AliceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliceUITests/Pods-AliceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6EE5EADD8373DB85ADD1966 /* Pods-AlphaWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaWallet/Pods-AlphaWallet.release.xcconfig"; sourceTree = "<group>"; };
 		C825940EC6CB472A443A7997 /* Pods-AlphaWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaWalletUITests/Pods-AlphaWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C868C5282053BDE00059672B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1235,7 +1243,9 @@
 		CCA4FE371FD428B300749AE4 /* JailbreakChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakChecker.swift; sourceTree = "<group>"; };
 		CCA4FE391FD42B4100749AE4 /* FakeJailbreakChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeJailbreakChecker.swift; sourceTree = "<group>"; };
 		CCCD74FC1FD2D38D004A087D /* CheckDeviceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDeviceCoordinator.swift; sourceTree = "<group>"; };
+		CD19781D2806B831CFD16C8B /* Pods_Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36AB2DC7832A980726A4AB1 /* Pods_AlphaWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9277855ACA0F9BE7541E451 /* Pods_AliceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1243,7 +1253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A669F5585899E890EF26C57 /* Pods_AlphaWallet.framework in Frameworks */,
+				52DF039ADE0AEBF732D378FD /* Pods_Alice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1252,6 +1262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DF46B4002E13613F768E7AE /* Pods_AlphaWalletTests.framework in Frameworks */,
+				B427BEAB31147816F5DBE92E /* Pods_AliceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1260,6 +1271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6325EB96168DA51329A92132 /* Pods_AlphaWalletUITests.framework in Frameworks */,
+				B7105AD9C9B55EB65359662D /* Pods_AliceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1269,10 +1281,9 @@
 		150AC6F1229E428C009EE08F /* NativeModules */ = {
 			isa = PBXGroup;
 			children = (
-				150AC6F2229E42B7009EE08F /* BridgingHeader.h */,
 				150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */,
 				150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */,
-				150AC6F3229E42E0009EE08F /* AlphaWallet-Bridging-Header.h */,
+				150AC6F3229E42E0009EE08F /* Alice-Bridging-Header.h */,
 			);
 			path = NativeModules;
 			sourceTree = "<group>";
@@ -1405,9 +1416,9 @@
 				29A13E311F6B1B6C00E432A2 /* Style */,
 				2996F14B1F6CA725005C33AE /* Extensions */,
 				2912CCF81F6A830700C6CBE3 /* AppDelegate.swift */,
+				15B3D4D122A0FB97007ED15C /* R.generated.swift */,
 				29D72A291F6A8D1500CE9209 /* AppCoordinator.swift */,
 				293E626E1FA2ED1400CB0A66 /* InCoordinator.swift */,
-				29850D241F6B27A800791A49 /* R.generated.swift */,
 				2912CD011F6A830700C6CBE3 /* Assets.xcassets */,
 				2912CD061F6A830700C6CBE3 /* Info.plist */,
 				29AD8A071F93E1F0008E10E7 /* AlphaWallet.entitlements */,
@@ -1514,9 +1525,9 @@
 			children = (
 				29FF12F91F74CC6C00AFD326 /* Form */,
 				291EC9DE1F7053C50004EDD0 /* NavigationController.swift */,
-				150AC6FB22A0C898009EE08F /* ButtonsBar.swift */,
 				293B8B421F70815900356286 /* BalanceTitleView.swift */,
 				296421941F70C1EC00EB363B /* LoadingView.swift */,
+				15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */,
 				296421961F70C1F200EB363B /* ErrorView.swift */,
 				296421981F70C1F900EB363B /* EmptyView.swift */,
 				29D03F1C1F712183006E548C /* Button.swift */,
@@ -2874,6 +2885,9 @@
 				0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */,
 				E36AB2DC7832A980726A4AB1 /* Pods_AlphaWalletTests.framework */,
 				7BEDA1C4253B796085A0E66C /* Pods_AlphaWalletUITests.framework */,
+				CD19781D2806B831CFD16C8B /* Pods_Alice.framework */,
+				A0FB281C313282530C85B148 /* Pods_AliceTests.framework */,
+				E9277855ACA0F9BE7541E451 /* Pods_AliceUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3140,6 +3154,12 @@
 				4E16B6D97BD699F844AB4E2B /* Pods-AlphaWalletTests.release.xcconfig */,
 				C825940EC6CB472A443A7997 /* Pods-AlphaWalletUITests.debug.xcconfig */,
 				120A2B8C48180E93DBCCC2EE /* Pods-AlphaWalletUITests.release.xcconfig */,
+				000D7602FC48A4B90A982A5A /* Pods-Alice.debug.xcconfig */,
+				AF56B66C872D38988B6C4F1A /* Pods-Alice.release.xcconfig */,
+				0C2AA3DA88A84B52F0021FA9 /* Pods-AliceTests.debug.xcconfig */,
+				20675FC01F5A9C0738B3B963 /* Pods-AliceTests.release.xcconfig */,
+				C49ED93682AB03FE439B294B /* Pods-AliceUITests.debug.xcconfig */,
+				B1A5502D4753EE6EF63FC86D /* Pods-AliceUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -3406,11 +3426,11 @@
 			);
 			name = R.Swift;
 			outputPaths = (
-				$SRCROOT/AlphaWallet/R.generated.swift,
+				$SRCROOT/Alice/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/AlphaWallet/R.generated.swift\"\n";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Alice\"\n";
 		};
 		7C3903F7FBE1023CAA5AED0C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3423,7 +3443,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlphaWallet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Alice-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3436,7 +3456,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlphaWallet/Pods-AlphaWallet-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Alice/Pods-Alice-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
@@ -3525,7 +3545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaWallet/Pods-AlphaWallet-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alice/Pods-Alice-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		945926675C0C7271EDB3828C /* [CP] Check Pods Manifest.lock */ = {
@@ -3539,7 +3559,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlphaWalletUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AliceUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3552,7 +3572,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlphaWalletTests/Pods-AlphaWalletTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AliceTests/Pods-AliceTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -3561,7 +3581,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaWalletTests/Pods-AlphaWalletTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliceTests/Pods-AliceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8FC0401219E9CC000445E21 /* R.swift */ = {
@@ -3589,7 +3609,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlphaWalletTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AliceTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3602,7 +3622,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlphaWallet/Pods-AlphaWallet-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Alice/Pods-Alice-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/AlphaWalletWeb3Provider/AlphaWalletWeb3Provider.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -3611,7 +3631,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaWallet/Pods-AlphaWallet-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alice/Pods-Alice-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3676,7 +3696,6 @@
 				29FF6D6B2011D2AF00A3011C /* InCoordinatorError.swift in Sources */,
 				29F114F01FA6D53700114A29 /* ImportSelectionType.swift in Sources */,
 				AA893ED5203C3E5400CDCED1 /* TokenBalance.swift in Sources */,
-				29850D251F6B27A800791A49 /* R.generated.swift in Sources */,
 				737D1675202BDCB400B42DDE /* UINavigationController.swift in Sources */,
 				AA4E531820425A9500143A09 /* Date.swift in Sources */,
 				296105931FA2AA2100292494 /* UnsignedTransaction.swift in Sources */,
@@ -3897,9 +3916,10 @@
 				5E7C75D46140FACBD12333BF /* EthTokenViewCell.swift in Sources */,
 				5E7C728CDF33FBDBA47F71A6 /* MarketplaceViewController.swift in Sources */,
 				5E7C71A7D2BD6FCE3980CC51 /* ImportWalletHelpBubbleViewViewModel.swift in Sources */,
-				150AC6FC22A0C899009EE08F /* ButtonsBar.swift in Sources */,
+				15B3D4CC22A0F3EF007ED15C /* ButtonsBar.swift in Sources */,
 				5E7C7E04D4DDD7D8881A2AB1 /* UniversalLinkCoordinator.swift in Sources */,
 				5E7C71A6B0BDF301747A49AE /* ScreenChecker.swift in Sources */,
+				15B3D4D222A0FB98007ED15C /* R.generated.swift in Sources */,
 				5E7C72AF95DCE8BC65490BCA /* StatusViewController.swift in Sources */,
 				5E7C783B4784DE76971EEBB4 /* StatusViewControllerViewModel.swift in Sources */,
 				5E7C7E2F558A1DFF078B61F9 /* TransferTokensCardViewController.swift in Sources */,
@@ -4419,7 +4439,7 @@
 		};
 		2912CD201F6A830700C6CBE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4F65A76A018D8DFF4A0314 /* Pods-AlphaWallet.debug.xcconfig */;
+			baseConfigurationReference = 000D7602FC48A4B90A982A5A /* Pods-Alice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -4436,7 +4456,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/AlphaWallet-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/Alice-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -4448,7 +4468,7 @@
 		};
 		2912CD211F6A830700C6CBE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6EE5EADD8373DB85ADD1966 /* Pods-AlphaWallet.release.xcconfig */;
+			baseConfigurationReference = AF56B66C872D38988B6C4F1A /* Pods-Alice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -4464,7 +4484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/AlphaWallet-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alice/NativeModules/Alice-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4475,16 +4495,16 @@
 		};
 		2912CD231F6A830700C6CBE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F84D10470B22C957A61EAE /* Pods-AlphaWalletTests.debug.xcconfig */;
+			baseConfigurationReference = 0C2AA3DA88A84B52F0021FA9 /* Pods-AliceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LRAW5PL536;
-				INFOPLIST_FILE = AlphaWalletTests/Info.plist;
+				INFOPLIST_FILE = AliceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AlphaWalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AliceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4494,16 +4514,16 @@
 		};
 		2912CD241F6A830700C6CBE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E16B6D97BD699F844AB4E2B /* Pods-AlphaWalletTests.release.xcconfig */;
+			baseConfigurationReference = 20675FC01F5A9C0738B3B963 /* Pods-AliceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LRAW5PL536;
-				INFOPLIST_FILE = AlphaWalletTests/Info.plist;
+				INFOPLIST_FILE = AliceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AlphaWalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AliceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4513,7 +4533,7 @@
 		};
 		2912CD261F6A830700C6CBE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C825940EC6CB472A443A7997 /* Pods-AlphaWalletUITests.debug.xcconfig */;
+			baseConfigurationReference = C49ED93682AB03FE439B294B /* Pods-AliceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: StormBird Pte LTD (LRAW5PL536)";
@@ -4522,7 +4542,7 @@
 				DEVELOPMENT_TEAM = LRAW5PL536;
 				INFOPLIST_FILE = TrustUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AlphaWalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AliceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2869a1ac-b598-45b8-a7c4-7560774c8a2f";
 				PROVISIONING_PROFILE_SPECIFIER = new;
@@ -4533,7 +4553,7 @@
 		};
 		2912CD271F6A830700C6CBE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 120A2B8C48180E93DBCCC2EE /* Pods-AlphaWalletUITests.release.xcconfig */;
+			baseConfigurationReference = B1A5502D4753EE6EF63FC86D /* Pods-AliceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -4541,7 +4561,7 @@
 				DEVELOPMENT_TEAM = LRAW5PL536;
 				INFOPLIST_FILE = TrustUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AlphaWalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormbird.AliceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2869a1ac-b598-45b8-a7c4-7560774c8a2f";
 				PROVISIONING_PROFILE_SPECIFIER = new;
