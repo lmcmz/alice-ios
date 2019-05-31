@@ -34,7 +34,7 @@ struct DiscoverDappCellViewModel {
     }
 
     var fallbackImage: UIImage? {
-        return R.image.launch_icon()
+        return R.image.launchIcon()
     }
 
     var name: String {
