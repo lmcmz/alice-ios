@@ -134,7 +134,7 @@ PODS:
   - yoga (0.59.8.React)
 
 DEPENDENCIES:
-  - AlphaWalletWeb3Provider (from `https://github.com/AlphaWallet/AlphaWallet-web3-provider`, commit `f25206c50009d1eb922c3cc8c0ba91594155e8b6`)
+  - AlphaWalletWeb3Provider (from `https://github.com/alicedapp/AlphaWallet-web3-provider`, commit `f25206c50009d1eb922c3cc8c0ba91594155e8b6`)
   - APIKit
   - AWSSNS
   - BigInt (~> 3.0)
@@ -147,12 +147,12 @@ DEPENDENCIES:
   - Kanna (~> 4.0.0)
   - KeychainSwift
   - Kingfisher (~> 4.0)
-  - Macaw (from `https://github.com/alpha-wallet/Macaw.git`, commit `c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8`)
+  - Macaw (from `https://github.com/alicedapp/Macaw.git`, commit `c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8`)
   - MBProgressHUD
   - Moya (~> 10.0.1)
   - PromiseKit/Alamofire
   - PromiseKit/CorePromise
-  - QRCodeReaderViewController (from `https://github.com/AlphaWallet/QRCodeReaderViewController.git`, branch `alphawallet`)
+  - QRCodeReaderViewController (from `https://github.com/alicedapp/QRCodeReaderViewController.git`, branch `alphawallet`)
   - R.swift (~> 4.0.0)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
@@ -171,9 +171,9 @@ DEPENDENCIES:
   - SwiftLint
   - SwiftyJSON
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
-  - TrezorCrypto (from `https://github.com/AlphaWallet/trezor-crypto-ios.git`, commit `50c16ba5527e269bbc838e80aee5bac0fe304cc7`)
-  - TrustKeystore (from `https://github.com/alpha-wallet/trust-keystore.git`, commit `9abdc1a63f1baf17facb26a3e049b5e335a95816`)
-  - web3swift (from `https://github.com/alpha-wallet/web3swift.git`, commit `2b3c5ee878212ce70768568def7e727f0f1ebf86`)
+  - TrezorCrypto (from `https://github.com/alicedapp/trezor-crypto-ios.git`, commit `50c16ba5527e269bbc838e80aee5bac0fe304cc7`)
+  - TrustKeystore (from `https://github.com/alicedapp/latest-keystore-snapshot.git`, commit `9abdc1a63f1baf17facb26a3e049b5e335a95816`)
+  - web3swift (from `https://github.com/alicedapp/web3swift.git`, commit `2b3c5ee878212ce70768568def7e727f0f1ebf86`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -218,53 +218,53 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   AlphaWalletWeb3Provider:
     :commit: f25206c50009d1eb922c3cc8c0ba91594155e8b6
-    :git: https://github.com/AlphaWallet/AlphaWallet-web3-provider
+    :git: https://github.com/alicedapp/AlphaWallet-web3-provider
   Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   Macaw:
     :commit: c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8
-    :git: https://github.com/alpha-wallet/Macaw.git
+    :git: https://github.com/alicedapp/Macaw.git
   QRCodeReaderViewController:
     :branch: alphawallet
-    :git: https://github.com/AlphaWallet/QRCodeReaderViewController.git
+    :git: https://github.com/alicedapp/QRCodeReaderViewController.git
   React:
     :path: "../node_modules/react-native"
   SwiftyXMLParser:
     :git: https://github.com/yahoojapan/SwiftyXMLParser.git
   TrezorCrypto:
     :commit: 50c16ba5527e269bbc838e80aee5bac0fe304cc7
-    :git: https://github.com/AlphaWallet/trezor-crypto-ios.git
+    :git: https://github.com/alicedapp/trezor-crypto-ios.git
   TrustKeystore:
     :commit: 9abdc1a63f1baf17facb26a3e049b5e335a95816
-    :git: https://github.com/alpha-wallet/trust-keystore.git
+    :git: https://github.com/alicedapp/latest-keystore-snapshot.git
   web3swift:
     :commit: 2b3c5ee878212ce70768568def7e727f0f1ebf86
-    :git: https://github.com/alpha-wallet/web3swift.git
+    :git: https://github.com/alicedapp/web3swift.git
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 CHECKOUT OPTIONS:
   AlphaWalletWeb3Provider:
     :commit: f25206c50009d1eb922c3cc8c0ba91594155e8b6
-    :git: https://github.com/AlphaWallet/AlphaWallet-web3-provider
+    :git: https://github.com/alicedapp/AlphaWallet-web3-provider
   Macaw:
     :commit: c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8
-    :git: https://github.com/alpha-wallet/Macaw.git
+    :git: https://github.com/alicedapp/Macaw.git
   QRCodeReaderViewController:
     :commit: b00c1919e8d359fb7d1b3b7bdbffa45f8d68c2cf
-    :git: https://github.com/AlphaWallet/QRCodeReaderViewController.git
+    :git: https://github.com/alicedapp/QRCodeReaderViewController.git
   SwiftyXMLParser:
     :commit: 13c1b5efa33c6238b5560d8625af4f1a24df2bd1
     :git: https://github.com/yahoojapan/SwiftyXMLParser.git
   TrezorCrypto:
     :commit: 50c16ba5527e269bbc838e80aee5bac0fe304cc7
-    :git: https://github.com/AlphaWallet/trezor-crypto-ios.git
+    :git: https://github.com/alicedapp/trezor-crypto-ios.git
   TrustKeystore:
     :commit: 9abdc1a63f1baf17facb26a3e049b5e335a95816
-    :git: https://github.com/alpha-wallet/trust-keystore.git
+    :git: https://github.com/alicedapp/latest-keystore-snapshot.git
   web3swift:
     :commit: 2b3c5ee878212ce70768568def7e727f0f1ebf86
-    :git: https://github.com/alpha-wallet/web3swift.git
+    :git: https://github.com/alicedapp/web3swift.git
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -314,6 +314,6 @@ SPEC CHECKSUMS:
   web3swift: ec721fe509a4b3ca7abdf027d186d07fce65be8f
   yoga: 92b2102c3d373d1a790db4ab761d2b0ffc634f64
 
-PODFILE CHECKSUM: d15edbd20fcc7856065c7eef98115f28008c0607
+PODFILE CHECKSUM: 6cadae98c3977fb750e341c8e14325b0d30d0e86
 
 COCOAPODS: 1.6.1

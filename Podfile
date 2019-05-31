@@ -11,7 +11,7 @@ target 'Alice' do
   pod 'Eureka', '~> 4.3'
   pod 'MBProgressHUD'
   pod 'StatefulViewController'
-  pod 'QRCodeReaderViewController', :git=>'https://github.com/AlphaWallet/QRCodeReaderViewController.git', :branch=>'alphawallet'
+  pod 'QRCodeReaderViewController', :git=>'https://github.com/alicedapp/QRCodeReaderViewController.git', :branch=>'alphawallet'
   pod 'KeychainSwift'
   pod 'SwiftLint'
   pod 'SeedStackViewController'
@@ -21,15 +21,15 @@ target 'Alice' do
   pod 'CryptoSwift'
   pod 'SwiftyXMLParser', :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git'
   pod 'Kingfisher', '~> 4.0'
-  pod 'AlphaWalletWeb3Provider', :git=>'https://github.com/AlphaWallet/AlphaWallet-web3-provider', :commit => 'f25206c50009d1eb922c3cc8c0ba91594155e8b6'
-  pod 'TrezorCrypto', :git=>'https://github.com/AlphaWallet/trezor-crypto-ios.git', :commit => '50c16ba5527e269bbc838e80aee5bac0fe304cc7'
-  pod 'TrustKeystore', :git => 'https://github.com/alpha-wallet/trust-keystore.git', :commit => '9abdc1a63f1baf17facb26a3e049b5e335a95816'
+  pod 'AlphaWalletWeb3Provider', :git=>'https://github.com/alicedapp/AlphaWallet-web3-provider', :commit => 'f25206c50009d1eb922c3cc8c0ba91594155e8b6'
+  pod 'TrezorCrypto', :git=>'https://github.com/alicedapp/trezor-crypto-ios.git', :commit => '50c16ba5527e269bbc838e80aee5bac0fe304cc7'
+  pod 'TrustKeystore', :git => 'https://github.com/alicedapp/latest-keystore-snapshot.git', :commit => '9abdc1a63f1baf17facb26a3e049b5e335a95816'
   pod 'SwiftyJSON'
-  pod 'web3swift', :git => 'https://github.com/alpha-wallet/web3swift.git', :commit => '2b3c5ee878212ce70768568def7e727f0f1ebf86'
+  pod 'web3swift', :git => 'https://github.com/alicedapp/web3swift.git', :commit => '2b3c5ee878212ce70768568def7e727f0f1ebf86'
   pod 'SAMKeychain'
   pod 'PromiseKit/CorePromise'
   pod 'PromiseKit/Alamofire'
-  pod "Macaw", :git => 'https://github.com/alpha-wallet/Macaw.git', :commit => 'c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8'
+  pod 'Macaw', :git => 'https://github.com/alicedapp/Macaw.git', :commit => 'c13e70e63dd1a2554b59e0aa75c12b93e2ee9dd8'
   pod 'Kanna', '~> 4.0.0'
   pod 'AWSSNS'
   # pod 'AWSCognito'
@@ -48,7 +48,7 @@ target 'Alice' do
   'RCTWebSocket',
   ]
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-  pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
   target 'AliceTests' do
       inherit! :search_paths
