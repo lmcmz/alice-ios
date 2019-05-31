@@ -3,8 +3,6 @@
 [![Build Status](https://travis-ci.com/AlphaWallet/alpha-wallet-ios.svg?branch=master)](https://travis-ci.com/AlphaWallet/alpha-wallet-ios.svg?branch=master)
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)](https://github.com/fastlane/fastlane/blob/master/LICENSE)
 
-[<img src="https://github.com/James-Sangalli/alpha-wallet-ios/blob/master/resources/screens.png">](https://alphawallet.com/)
-
 ## Getting Started
 
 1. [Download](https://developer.apple.com/xcode/download/) the Xcode 9 and above release.
