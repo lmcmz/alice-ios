@@ -33,6 +33,23 @@ target 'AlphaWallet' do
   pod 'Kanna', '~> 4.0.0'
   pod 'AWSSNS'
   # pod 'AWSCognito'
+  
+  pod 'SwiftEntryKit', '1.0.1'
+  
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+  'Core',
+  'CxxBridge',
+  'DevSupport',
+  'RCTText',
+  'RCTAnimation',
+  'RCTImage',
+  'RCTActionSheet',
+  'RCTNetwork',
+  'RCTWebSocket',
+  ]
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+
   target 'AlphaWalletTests' do
       inherit! :search_paths
       # Pods for testing
@@ -44,6 +61,22 @@ target 'AlphaWallet' do
     # Pods for testing
   end
 
+end
+
+def change_lines_in_file(file_path, &change)
+  print "Fixing #{file_path}...\n"
+  
+  contents = []
+  
+  file = File.open(file_path, 'r')
+  file.each_line do | line |
+    contents << line
+  end
+  file.close
+  
+  File.open(file_path, 'w') do |f|
+    f.puts(change.call(contents))
+  end
 end
 
 post_install do |installer|
@@ -68,5 +101,38 @@ post_install do |installer|
         config.build_settings['SWIFT_VERSION'] = '4'
       end
     end
+  end
+  
+  # https://github.com/facebook/yoga/issues/711#issuecomment-381098373
+  change_lines_in_file('./Pods/Target Support Files/yoga/yoga-umbrella.h') do |lines|
+    lines.reject do | line |
+      [
+      '#import "Utils.h"',
+      '#import "YGLayout.h"',
+      '#import "YGNode.h"',
+      '#import "YGNodePrint.h"',
+      '#import "YGStyle.h"',
+      '#import "Yoga-internal.h"',
+      ].include?(line.strip)
+    end
+  end
+  
+  # https://github.com/facebook/yoga/issues/711#issuecomment-374605785
+  change_lines_in_file('../node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.h') do |lines|
+    unless lines[27].include?("#ifdef __cplusplus")
+      lines.insert(27, "#ifdef __cplusplus")
+      lines.insert(34, "#endif")
+    end
+    lines
+  end
+  
+  # https://github.com/facebook/react-native/issues/13198
+  change_lines_in_file('../node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h') do |lines|
+    lines.map { |line| line.include?("#import <RCTAnimation/RCTValueAnimatedNode.h>") ? '#import "RCTValueAnimatedNode.h"' : line }
+  end
+  
+  # https://github.com/facebook/react-native/issues/16039
+  change_lines_in_file('../node_modules/react-native/Libraries/WebSocket/RCTReconnectingWebSocket.m') do |lines|
+    lines.map { |line| line.include?("#import <fishhook/fishhook.h>") ? '#import "fishhook.h"' : line }
   end
 end

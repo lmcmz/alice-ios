@@ -8,6 +8,8 @@ import UserNotifications
 import TrustKeystore
 import web3swift
 
+fileprivate var globalKeystore: EtherKeystore?
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
     var window: UIWindow?
@@ -26,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         window = UIWindow(frame: UIScreen.main.bounds)
         do {
             let keystore = try EtherKeystore()
+            globalKeystore = keystore
             appCoordinator = AppCoordinator(window: window!, keystore: keystore)
             appCoordinator.start()
         } catch {
@@ -164,5 +167,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     @discardableResult private func handleUniversalLink(url: URL) -> Bool {
         let handled = appCoordinator.handleUniversalLink(url: url)
         return handled
+    }
+    
+    class func keystore() -> EtherKeystore {
+        return globalKeystore!
     }
 }

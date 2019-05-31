@@ -362,7 +362,7 @@ final class DappBrowserCoordinator: NSObject, Coordinator {
 }
 
 extension DappBrowserCoordinator: BrowserViewControllerDelegate {
-    func didCall(action: DappAction, callbackID: Int, inBrowserViewController viewController: BrowserViewController) {
+     func didCall(action: DappAction, callbackID: Int, inBrowserViewController viewController: BrowserViewController) {
         guard case .real(let account) = session.account.type else {
             browserViewController.notifyFinish(callbackID: callbackID, value: .failure(DAppError.cancelled))
             navigationController.topViewController?.displayError(error: InCoordinatorError.onlyWatchAccount)

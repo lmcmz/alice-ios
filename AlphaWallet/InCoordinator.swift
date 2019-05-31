@@ -31,13 +31,15 @@ enum Tabs {
     }
 }
 
+fileprivate var walletSessions = ServerDictionary<WalletSession>()
+
 class InCoordinator: NSObject, Coordinator {
     private var wallet: Wallet
     private let config: Config
     private let assetDefinitionStore: AssetDefinitionStore
     private let appTracker: AppTracker
     private var transactionsStorages = ServerDictionary<TransactionsStorage>()
-    private var walletSessions = ServerDictionary<WalletSession>()
+    
     private var callForAssetAttributeCoordinators = ServerDictionary<CallForAssetAttributeCoordinator>() {
         didSet {
             XMLHandler.callForAssetAttributeCoordinators = callForAssetAttributeCoordinators
@@ -260,6 +262,10 @@ class InCoordinator: NSObject, Coordinator {
             )
             walletSessions[each] = session
         }
+    }
+    
+    class func walletSession() -> ServerDictionary<WalletSession> {
+        return walletSessions
     }
 
     private func setupResourcesOnMultiChain() {
@@ -510,7 +516,7 @@ class InCoordinator: NSObject, Coordinator {
             let strongSelf = self
             switch result {
             case .success(let payload):
-                let session = strongSelf.walletSessions[server]
+                let session = walletSessions[server]
                 let account = try! EtherKeystore().getAccount(for: wallet.address)!
                 //Note: since we have the data payload, it is unnecessary to load an UnconfirmedTransaction struct
                 let transactionToSign = UnsignedTransaction(

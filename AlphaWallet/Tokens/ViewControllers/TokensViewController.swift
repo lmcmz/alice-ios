@@ -5,6 +5,8 @@ import UIKit
 import StatefulViewController
 import Result
 
+import React
+
 protocol TokensViewControllerDelegate: class {
     func didPressAddToken( in viewController: UIViewController)
     func didSelect(token: TokenObject, in viewController: UIViewController)
@@ -222,7 +224,12 @@ class TokensViewController: UIViewController {
     }
 
     @objc func addToken() {
-        delegate?.didPressAddToken(in: self)
+        let vc = UIViewController()
+        let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
+        let rnView = RCTRootView(bundleURL: jsCodeLocation, moduleName: "testCall", initialProperties: nil, launchOptions: nil)
+        vc.view = rnView
+        navigationController?.pushViewController(vc, animated: true)
+        //        delegate?.didPressAddToken(in: self)
     }
 
     private func createImportWalletImagePath() -> UIBezierPath {

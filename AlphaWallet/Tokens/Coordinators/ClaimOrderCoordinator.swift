@@ -10,7 +10,7 @@ import APIKit
 import Result
 import TrustKeystore
 import JavaScriptKit
-import Result
+import enum Result.Result
 
 class ClaimOrderCoordinator {
     func claimOrder(signedOrder: SignedOrder,

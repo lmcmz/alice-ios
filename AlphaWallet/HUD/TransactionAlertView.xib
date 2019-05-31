@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TransactionAlertView" customModule="AlphaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0W-V0-ICz">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Native Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-zS-FJY">
+                            <rect key="frame" x="136" y="100" width="142.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGo-Ku-edS">
+                            <rect key="frame" x="16" y="27" width="27.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0xa1b02d8c67b0fdcf4e379855868deb470e169cfb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxS-bo-2ee">
+                            <rect key="frame" x="51" y="31" width="271.5" height="13.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFb-o4-ryP">
+                            <rect key="frame" x="189" y="340" width="36" height="30"/>
+                            <state key="normal" title="Send"/>
+                            <connections>
+                                <action selector="sendButtonClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="EYB-PC-6TV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="FMY-o7-TsC"/>
+                        <constraint firstItem="bFb-o4-ryP" firstAttribute="centerX" secondItem="A0W-V0-ICz" secondAttribute="centerX" id="FYg-he-xgU"/>
+                        <constraint firstItem="fxS-bo-2ee" firstAttribute="centerY" secondItem="vGo-Ku-edS" secondAttribute="centerY" id="Qf5-R0-0gh"/>
+                        <constraint firstItem="fxS-bo-2ee" firstAttribute="leading" secondItem="vGo-Ku-edS" secondAttribute="trailing" constant="7.5" id="RkA-t5-7S6"/>
+                        <constraint firstItem="Qo5-zS-FJY" firstAttribute="top" secondItem="A0W-V0-ICz" secondAttribute="top" constant="100" id="cWj-Xh-xqD"/>
+                        <constraint firstItem="bFb-o4-ryP" firstAttribute="top" secondItem="Qo5-zS-FJY" secondAttribute="bottom" constant="50" id="ce1-90-zNn"/>
+                        <constraint firstItem="Qo5-zS-FJY" firstAttribute="centerX" secondItem="A0W-V0-ICz" secondAttribute="centerX" id="gvq-ns-pvj"/>
+                        <constraint firstItem="vGo-Ku-edS" firstAttribute="top" secondItem="A0W-V0-ICz" secondAttribute="top" constant="27" id="r35-pm-ksp"/>
+                        <constraint firstItem="vGo-Ku-edS" firstAttribute="leading" secondItem="A0W-V0-ICz" secondAttribute="leading" constant="16" id="vKw-zZ-1Y7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="A0W-V0-ICz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1DT-BJ-rlK"/>
+                <constraint firstAttribute="trailing" secondItem="A0W-V0-ICz" secondAttribute="trailing" id="Gg3-cA-uMI"/>
+                <constraint firstAttribute="bottom" secondItem="A0W-V0-ICz" secondAttribute="bottom" id="MQL-EY-KBJ"/>
+                <constraint firstItem="A0W-V0-ICz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RQm-Ks-5QH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="-39.508928571428569"/>
+        </view>
+    </objects>
+</document>
