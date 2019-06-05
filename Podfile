@@ -34,8 +34,10 @@ target 'Alice' do
   pod 'AWSSNS'
   # pod 'AWSCognito'
   
+  pod 'SPStorkController'
   pod 'SwiftEntryKit', '1.0.1'
   
+  # React Native Dependencies
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
   'Core',
   'CxxBridge',
@@ -49,6 +51,7 @@ target 'Alice' do
   ]
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
   target 'AliceTests' do
       inherit! :search_paths
@@ -63,6 +66,7 @@ target 'Alice' do
 
 end
 
+# Fix RN dependency issuse
 def change_lines_in_file(file_path, &change)
   print "Fixing #{file_path}...\n"
   

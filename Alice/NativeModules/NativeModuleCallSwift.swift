@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SPStorkController
 
 @objc(NativeModuleCallSwift)
 class NativeModuleCallSwift : NSObject {
@@ -19,25 +20,14 @@ class NativeModuleCallSwift : NSObject {
 //        SendCoordinator.
         // You won't be on the main thread when called from JavaScript
         DispatchQueue.main.async {
-            HUDManager.shared.showAlertView(view: TransactionAlertView.instanceFromNib())
-            var server = RPCServer(chainID: Config.getChainId())
-            let token = TokensDataStore.token(forServer: server)
-            let requester = DAppRequester(title: "Test", url: URL(string: "www.google.com"))
-            let transfer = Transfer(server: server, type: .dapp(token, requester))
-
-//            let dict = []
-//            let command = DappCommand(name: .signTransaction, id: 8888, object: ["gasPrice": )])
-//            DappCommandObjectValue
-//            DappCommand(name: .signTransaction, id: 8888, object: ["gasPrice"  : DappCommandObjectValue(from: "1233"),
-//                                                                   "chainType" : DappCommandObjectValue(from: "1233"),
-//                                                                   "to"        : DappCommandObjectValue(from: "1233"),
-//                                                                    ])
-//            
-//            executeTransaction
-//                DappAction.fromMessage(message)
-            
-            
-//            let action = DappAction.fromCommand(command, transfer: transfer)
+//            HUDManager.shared.showAlertView(view: TransactionAlertView.instanceFromNib())
+            let topVC = UIApplication.topViewController()
+            let modal = PaymentViewController()
+            let transitionDelegate = SPStorkTransitioningDelegate()
+            transitionDelegate.customHeight = 500
+            modal.transitioningDelegate = transitionDelegate
+            modal.modalPresentationStyle = .custom
+            topVC?.present(modal, animated: true, completion: nil)
         }
     }
 }
