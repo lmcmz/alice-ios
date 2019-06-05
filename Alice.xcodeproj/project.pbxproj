@@ -13,6 +13,8 @@
 		150AC6F5229E42E0009EE08F /* SwiftReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */; };
 		150AC6F7229E4318009EE08F /* NativeModuleCallSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */; };
 		150AC6FA229F6E81009EE08F /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F9229F6E81009EE08F /* TransactionManager.swift */; };
+		1577E4FE22A7A220001973E0 /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E4FC22A7A220001973E0 /* RNViewController.swift */; };
+		1577E4FF22A7A220001973E0 /* RNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577E4FD22A7A220001973E0 /* RNViewController.xib */; };
 		15A87EB4229E3FD200E569DA /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A87EB3229E3FD200E569DA /* HUDManager.swift */; };
 		15AEDA0722A764A000F498E6 /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AEDA0622A764A000F498E6 /* ButtonsBar.swift */; };
 		15AEDA0922A7793700F498E6 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AEDA0822A7793700F498E6 /* UIApplication.swift */; };
@@ -635,6 +637,8 @@
 		150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReactNativeBridge.m; sourceTree = "<group>"; };
 		150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeModuleCallSwift.swift; sourceTree = "<group>"; };
 		150AC6F9229F6E81009EE08F /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
+		1577E4FC22A7A220001973E0 /* RNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
+		1577E4FD22A7A220001973E0 /* RNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RNViewController.xib; sourceTree = "<group>"; };
 		15A87EB3229E3FD200E569DA /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
 		15AEDA0622A764A000F498E6 /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsBar.swift; sourceTree = "<group>"; };
 		15AEDA0822A7793700F498E6 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -1330,6 +1334,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		1577E4FB22A7A20C001973E0 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				1577E4FC22A7A220001973E0 /* RNViewController.swift */,
+				1577E4FD22A7A220001973E0 /* RNViewController.xib */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
 		15A87EB2229E3F9F00E569DA /* HUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1408,6 +1421,7 @@
 		2912CCF71F6A830700C6CBE3 /* Alice */ = {
 			isa = PBXGroup;
 			children = (
+				1577E4FB22A7A20C001973E0 /* Temp */,
 				15AEDA0F22A77E0300F498E6 /* CustomView */,
 				150AC6FD22A0CB4C009EE08F /* Resource */,
 				150AC6F8229F6E73009EE08F /* Transaction */,
@@ -3401,6 +3415,7 @@
 				C880332020551DF800D73D6F /* howDoIGetMyMoneyInfo.html in Resources */,
 				613D04891FDE15F8008DE72E /* COMODO ECC Domain Validation Secure Server CA 2.cer in Resources */,
 				C887C53A2057B703005ACF81 /* termsOfService.html in Resources */,
+				1577E4FF22A7A220001973E0 /* RNViewController.xib in Resources */,
 				C876FF7D204A79D300B7D0EA /* SourceSansPro-Bold.otf in Resources */,
 				C880330D2054371500D73D6F /* non_asset_catalog_redemption_location@2x.png in Resources */,
 				771AA966200D5F1900D25403 /* WordCollectionViewCell.xib in Resources */,
@@ -3447,7 +3462,7 @@
 			);
 			name = R.Swift;
 			outputPaths = (
-				"$SRCROOT/Alice/R.generated.swift",
+				$SRCROOT/Alice/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4099,6 +4114,7 @@
 				76F1D9BBB4ACAA00C8391172 /* GetENSInfoEncode.swift in Sources */,
 				5E7C73CA81FB2CE9BCAFC992 /* CallForAssetAttribute.swift in Sources */,
 				5E7C77552A957D1B144D9209 /* CallForAssetAttributeCoordinator.swift in Sources */,
+				1577E4FE22A7A220001973E0 /* RNViewController.swift in Sources */,
 				5E7C7C8BC4763CFDD3EE119D /* AssetAttributeFunctionCall.swift in Sources */,
 				76F1D5B10569F2351CA98A93 /* GasLimitConfiguration.swift in Sources */,
 				5E7C7EB80D32A2F366E79140 /* SettingsHeaderView.swift in Sources */,

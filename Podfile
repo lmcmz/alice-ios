@@ -104,10 +104,19 @@ post_install do |installer|
         'Result',
         'SeedStackViewController',
         'SwiftyXMLParser',
-        'JSONRPCKit'
+        'JSONRPCKit',
+        'BigInt',
+        'Moya',
+        'TrustKeystore'
     ].include? target.name
       target.build_configurations.each do |config|
         config.build_settings['SWIFT_VERSION'] = '4'
+      end
+    end
+    
+    if ['libsodium'].include? target.name
+      target.build_configurations.each do |config|
+        config.build_settings['USE_HEADERMAP'] = 'NO'
       end
     end
   end
