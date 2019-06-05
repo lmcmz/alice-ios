@@ -36,6 +36,7 @@ target 'Alice' do
   
   pod 'SPStorkController'
   pod 'SwiftEntryKit', '1.0.1'
+  pod 'SPStorkController'
   
   # React Native Dependencies
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
@@ -48,9 +49,13 @@ target 'Alice' do
   'RCTActionSheet',
   'RCTNetwork',
   'RCTWebSocket',
+  'RCTLinkingIOS'
   ]
+  
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
   target 'AliceTests' do
