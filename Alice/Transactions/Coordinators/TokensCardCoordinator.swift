@@ -279,7 +279,7 @@ class TokensCardCoordinator: NSObject, Coordinator {
 
     private func generateTransferLink(tokenHolder: TokenHolder, linkExpiryDate: Date, server: RPCServer) -> String {
         let order = Order(
-            price: BigUInt("0")!,
+            price: BigUInt("0"),
             indices: tokenHolder.indices,
             expiry: BigUInt(Int(linkExpiryDate.timeIntervalSince1970)),
             contractAddress: tokenHolder.contractAddress,
