@@ -14,7 +14,7 @@
 		150AC6F7229E4318009EE08F /* NativeModuleCallSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */; };
 		150AC6FA229F6E81009EE08F /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F9229F6E81009EE08F /* TransactionManager.swift */; };
 		15A87EB4229E3FD200E569DA /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A87EB3229E3FD200E569DA /* HUDManager.swift */; };
-		15B3D4CC22A0F3EF007ED15C /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */; };
+		15AEDA0722A764A000F498E6 /* ButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AEDA0622A764A000F498E6 /* ButtonsBar.swift */; };
 		15B3D4D222A0FB98007ED15C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3D4D122A0FB97007ED15C /* R.generated.swift */; };
 		290B2B541F8F50030053C83E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290B2B561F8F50030053C83E /* Localizable.strings */; };
 		290B2B5F1F9177860053C83E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B5E1F9177860053C83E /* UIImage.swift */; };
@@ -632,7 +632,7 @@
 		150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeModuleCallSwift.swift; sourceTree = "<group>"; };
 		150AC6F9229F6E81009EE08F /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
 		15A87EB3229E3FD200E569DA /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
-		15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsBar.swift; path = "../../../../Downloads/alpha-wallet-ios-master/AlphaWallet/UI/ButtonsBar.swift"; sourceTree = "<group>"; };
+		15AEDA0622A764A000F498E6 /* ButtonsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsBar.swift; sourceTree = "<group>"; };
 		15B3D4D122A0FB97007ED15C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		20675FC01F5A9C0738B3B963 /* Pods-AliceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliceTests/Pods-AliceTests.release.xcconfig"; sourceTree = "<group>"; };
 		290B2B551F8F50030053C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1518,10 +1518,11 @@
 			isa = PBXGroup;
 			children = (
 				29FF12F91F74CC6C00AFD326 /* Form */,
+				5E7C7AD07E232C7A32564731 /* ViewModels */,
 				291EC9DE1F7053C50004EDD0 /* NavigationController.swift */,
+				15AEDA0622A764A000F498E6 /* ButtonsBar.swift */,
 				293B8B421F70815900356286 /* BalanceTitleView.swift */,
 				296421941F70C1EC00EB363B /* LoadingView.swift */,
-				15B3D4CB22A0F3EE007ED15C /* ButtonsBar.swift */,
 				296421961F70C1F200EB363B /* ErrorView.swift */,
 				296421981F70C1F900EB363B /* EmptyView.swift */,
 				29D03F1C1F712183006E548C /* Button.swift */,
@@ -1536,7 +1537,6 @@
 				5E7C7AC5A210D034DBC75FB0 /* TextView.swift */,
 				5E7C75F65E8C1E20EBA6A5F4 /* Scrollable.swift */,
 				5E7C7D931F68BFB5E1DCE001 /* TokenCardRowView.swift */,
-				5E7C7AD07E232C7A32564731 /* ViewModels */,
 				5E7C73D0DCE61EA2DE2DA21D /* AmountTextField.swift */,
 				5E7C7CD1FB7D353704EF3389 /* DateEntryField.swift */,
 				5E7C73EFA9494B31C683A287 /* TimeEntryField.swift */,
@@ -3418,7 +3418,7 @@
 			);
 			name = R.Swift;
 			outputPaths = (
-				"$SRCROOT/Alice/R.generated.swift",
+				$SRCROOT/Alice/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3908,8 +3908,8 @@
 				5E7C75D46140FACBD12333BF /* EthTokenViewCell.swift in Sources */,
 				5E7C728CDF33FBDBA47F71A6 /* MarketplaceViewController.swift in Sources */,
 				5E7C71A7D2BD6FCE3980CC51 /* ImportWalletHelpBubbleViewViewModel.swift in Sources */,
-				15B3D4CC22A0F3EF007ED15C /* ButtonsBar.swift in Sources */,
 				5E7C7E04D4DDD7D8881A2AB1 /* UniversalLinkCoordinator.swift in Sources */,
+				15AEDA0722A764A000F498E6 /* ButtonsBar.swift in Sources */,
 				5E7C71A6B0BDF301747A49AE /* ScreenChecker.swift in Sources */,
 				15B3D4D222A0FB98007ED15C /* R.generated.swift in Sources */,
 				5E7C72AF95DCE8BC65490BCA /* StatusViewController.swift in Sources */,
