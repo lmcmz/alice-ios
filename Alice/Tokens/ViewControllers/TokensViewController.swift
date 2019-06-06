@@ -124,6 +124,7 @@ class TokensViewController: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.applyTintAdjustment()
         fetch()
+//        addToken()
     }
 
     @objc func pullToRefresh() {
@@ -230,7 +231,9 @@ class TokensViewController: UIViewController {
         vc.view = rnView
         vc.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(vc, animated: true)
-        //        delegate?.didPressAddToken(in: self)
+                delegate?.didPressAddToken(in: self)
+        
+//        TransactionManager.showPaymentView()
     }
 
     private func createImportWalletImagePath() -> UIBezierPath {

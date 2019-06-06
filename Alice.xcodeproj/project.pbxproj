@@ -13,6 +13,8 @@
 		150AC6F5229E42E0009EE08F /* SwiftReactNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */; };
 		150AC6F7229E4318009EE08F /* NativeModuleCallSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */; };
 		150AC6FA229F6E81009EE08F /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150AC6F9229F6E81009EE08F /* TransactionManager.swift */; };
+		1515B21222A8AA2B0068A126 /* RPCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1515B21122A8AA2B0068A126 /* RPCircularProgress.swift */; };
+		151DF26422A891E600DAAF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151DF26122A891E600DAAF0C /* Assets.xcassets */; };
 		1577E4FE22A7A220001973E0 /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E4FC22A7A220001973E0 /* RNViewController.swift */; };
 		1577E4FF22A7A220001973E0 /* RNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577E4FD22A7A220001973E0 /* RNViewController.xib */; };
 		15A87EB4229E3FD200E569DA /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A87EB3229E3FD200E569DA /* HUDManager.swift */; };
@@ -29,7 +31,6 @@
 		290B2B6C1F92C35B0053C83E /* RPCServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B6B1F92C35B0053C83E /* RPCServerTests.swift */; };
 		290B2B6E1F92C3980053C83E /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B2B6D1F92C3980053C83E /* UserDefaults.swift */; };
 		2912CCF91F6A830700C6CBE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912CCF81F6A830700C6CBE3 /* AppDelegate.swift */; };
-		2912CD021F6A830700C6CBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2912CD011F6A830700C6CBE3 /* Assets.xcassets */; };
 		2912CD1B1F6A830700C6CBE3 /* TrustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912CD1A1F6A830700C6CBE3 /* TrustUITests.swift */; };
 		2912CD2B1F6A833E00C6CBE3 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912CD2A1F6A833E00C6CBE3 /* TransactionsViewController.swift */; };
 		2912CD2F1F6A83A100C6CBE3 /* ImportWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912CD2E1F6A83A100C6CBE3 /* ImportWalletViewController.swift */; };
@@ -637,6 +638,8 @@
 		150AC6F4229E42E0009EE08F /* SwiftReactNativeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReactNativeBridge.m; sourceTree = "<group>"; };
 		150AC6F6229E4318009EE08F /* NativeModuleCallSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeModuleCallSwift.swift; sourceTree = "<group>"; };
 		150AC6F9229F6E81009EE08F /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
+		1515B21122A8AA2B0068A126 /* RPCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCircularProgress.swift; sourceTree = "<group>"; };
+		151DF26122A891E600DAAF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1577E4FC22A7A220001973E0 /* RNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
 		1577E4FD22A7A220001973E0 /* RNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RNViewController.xib; sourceTree = "<group>"; };
 		15A87EB3229E3FD200E569DA /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
@@ -655,7 +658,6 @@
 		290B2B6D1F92C3980053C83E /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		2912CCF51F6A830700C6CBE3 /* Alice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2912CCF81F6A830700C6CBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2912CD011F6A830700C6CBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2912CD061F6A830700C6CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		2912CD0B1F6A830700C6CBE3 /* AliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2912CD111F6A830700C6CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -1334,6 +1336,38 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		151DF25F22A891E600DAAF0C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				151DF26022A891E600DAAF0C /* image */,
+				151DF26222A891E600DAAF0C /* front */,
+				151DF26322A891E600DAAF0C /* sound */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		151DF26022A891E600DAAF0C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				151DF26122A891E600DAAF0C /* Assets.xcassets */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		151DF26222A891E600DAAF0C /* front */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = front;
+			sourceTree = "<group>";
+		};
+		151DF26322A891E600DAAF0C /* sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		1577E4FB22A7A20C001973E0 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
@@ -1366,6 +1400,7 @@
 		15AEDA0F22A77E0300F498E6 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				1515B21122A8AA2B0068A126 /* RPCircularProgress.swift */,
 				15AEDA1222A77E7D00F498E6 /* BasicControl.swift */,
 			);
 			path = CustomView;
@@ -1421,6 +1456,7 @@
 		2912CCF71F6A830700C6CBE3 /* Alice */ = {
 			isa = PBXGroup;
 			children = (
+				151DF25F22A891E600DAAF0C /* Resource */,
 				1577E4FB22A7A20C001973E0 /* Temp */,
 				15AEDA0F22A77E0300F498E6 /* CustomView */,
 				150AC6FD22A0CB4C009EE08F /* Resource */,
@@ -1454,7 +1490,6 @@
 				15B3D4D122A0FB97007ED15C /* R.generated.swift */,
 				29D72A291F6A8D1500CE9209 /* AppCoordinator.swift */,
 				293E626E1FA2ED1400CB0A66 /* InCoordinator.swift */,
-				2912CD011F6A830700C6CBE3 /* Assets.xcassets */,
 				2912CD061F6A830700C6CBE3 /* Info.plist */,
 				29AD8A071F93E1F0008E10E7 /* AlphaWallet.entitlements */,
 				613D04881FDE15F8008DE72E /* COMODO ECC Domain Validation Secure Server CA 2.cer */,
@@ -3427,10 +3462,10 @@
 				C880331F20551DF800D73D6F /* howDoITransferETHIntoMyWalletInfo.html in Resources */,
 				C887C5392057B703005ACF81 /* privacyPolicy.html in Resources */,
 				290B2B541F8F50030053C83E /* Localizable.strings in Resources */,
-				2912CD021F6A830700C6CBE3 /* Assets.xcassets in Resources */,
 				C880332220551DF800D73D6F /* whatIsEthereumInfo.html in Resources */,
 				5E7C71D40F530871D95170C6 /* BookmarkViewCell.xib in Resources */,
 				15AEDA0D22A779D900F498E6 /* PaymentViewController.xib in Resources */,
+				151DF26422A891E600DAAF0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4168,6 +4203,7 @@
 				5E7C73E7A68C56162FA2E845 /* SingleChainTransactionDataCoordinator.swift in Sources */,
 				5E7C79F32F7054020B2F835A /* ServerDictionary.swift in Sources */,
 				5E7C72A83542B1CB69E7B4B7 /* EnabledServersViewController.swift in Sources */,
+				1515B21222A8AA2B0068A126 /* RPCircularProgress.swift in Sources */,
 				5E7C79284D45EF4C5440E546 /* EnabledServersCoordinator.swift in Sources */,
 				5E7C745ECFCAE8B1A52B7FAC /* EnabledServersViewModel.swift in Sources */,
 				5E7C78FF93B0DD68700FAFB6 /* NativeCryptoCurrencyBalanceView.swift in Sources */,

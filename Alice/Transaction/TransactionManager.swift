@@ -9,6 +9,7 @@ import Foundation
 import APIKit
 import JSONRPCKit
 import Result
+import SPStorkController
 
 class TransactionManager: NSObject {
     
@@ -24,6 +25,16 @@ class TransactionManager: NSObject {
         let walletSession = InCoordinator.walletSession()
         session = walletSession[.main]
         self.confirmType = .signThenSend
+    }
+    
+    class func showPaymentView() {
+        let topVC = UIApplication.topViewController()
+        let modal = PaymentViewController()
+        let transitionDelegate = SPStorkTransitioningDelegate()
+        transitionDelegate.customHeight = 500
+        modal.transitioningDelegate = transitionDelegate
+        modal.modalPresentationStyle = .custom
+        topVC?.present(modal, animated: true, completion: nil)
     }
     
     func send(transaction: UnsignedTransaction, completion: @escaping (Result<ConfirmResult, AnyError>) -> Void) {

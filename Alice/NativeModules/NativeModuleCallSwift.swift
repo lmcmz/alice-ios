@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SPStorkController
+
 
 @objc(NativeModuleCallSwift)
 class NativeModuleCallSwift : NSObject {
@@ -21,13 +21,7 @@ class NativeModuleCallSwift : NSObject {
         // You won't be on the main thread when called from JavaScript
         DispatchQueue.main.async {
 //            HUDManager.shared.showAlertView(view: TransactionAlertView.instanceFromNib())
-            let topVC = UIApplication.topViewController()
-            let modal = PaymentViewController()
-            let transitionDelegate = SPStorkTransitioningDelegate()
-            transitionDelegate.customHeight = 500
-            modal.transitioningDelegate = transitionDelegate
-            modal.modalPresentationStyle = .custom
-            topVC?.present(modal, animated: true, completion: nil)
+            TransactionManager.showPaymentView()
         }
     }
 }
