@@ -27,20 +27,20 @@ class ProtectionCoordinator: Coordinator {
 	}
 
 	func applicationDidBecomeActive() {
-		splashCoordinator.stop()
+        splashCoordinator.stop()
 	}
 
 	func applicationWillResignActive() {
-		splashCoordinator.start()
+//        splashCoordinator.start()
 	}
 
 	func applicationDidEnterBackground() {
-		splashCoordinator.start()
+//        splashCoordinator.start()
 		lockEnterPasscodeCoordinator.start()
 	}
 
 	func applicationWillEnterForeground() {
-		splashCoordinator.stop()
+//        splashCoordinator.stop()
 		lockEnterPasscodeCoordinator.start()
 		lockEnterPasscodeCoordinator.showAuthentication()
 	}
