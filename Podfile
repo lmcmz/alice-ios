@@ -55,8 +55,8 @@ target 'Alice' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  pod 'react-native-camera', path: '../node_modules/react-native-camera'
+  pod 'react-native-mapbox-gl', :path => '../node_modules/@mapbox/react-native-mapbox-gl'
 
   target 'AliceTests' do
       inherit! :search_paths

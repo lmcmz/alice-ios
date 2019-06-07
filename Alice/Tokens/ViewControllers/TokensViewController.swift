@@ -231,7 +231,7 @@ class TokensViewController: UIViewController {
         vc.view = rnView
         vc.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(vc, animated: true)
-                delegate?.didPressAddToken(in: self)
+//                delegate?.didPressAddToken(in: self)
         
 //        TransactionManager.showPaymentView()
     }
